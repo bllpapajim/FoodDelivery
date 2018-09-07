@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "953525498637",
+    "firebase_url": "https://estiatorioapp.firebaseio.com",
+    "project_id": "estiatorioapp",
+    "storage_bucket": "estiatorioapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:953525498637:android:d6eed0bb132f1f2d",
+        "android_client_info": {
+          "package_name": "gr.kapaweb.estiatorio.kapaweb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "953525498637-mo1btfm250rcvrt5fte1n7upq44m854j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDFec3HPcGUvsILk-T_hbhw1hKeg-aiV2w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

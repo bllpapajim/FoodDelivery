@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="gr.kapaweb.estiatorio.kapaweb" version="1.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>E-stiatorio</name>
+    <description>
+        Food Delivery - Powered by kapaweb
+    </description>
+    <author email="info@kapaweb.gr" href="https://kapaweb.gr">
+        KapaWeb
+    </author>
+    <content src="index.html" />
+    <preference name="permissions" value="none" />
+    <preference name="orientation" value="default" />
+    <preference name="target-device" value="universal" />
+    <preference name="fullscreen" value="true" />
+    <preference name="webviewbounce" value="true" />
+    <preference name="prerendered-icon" value="true" />
+    <preference name="stay-in-webview" value="false" />
+    <preference name="ios-statusbarstyle" value="black-opaque" />
+    <preference name="detect-data-types" value="true" />
+    <preference name="exit-on-suspend" value="false" />
+    <preference name="show-splash-screen-spinner" value="true" />
+    <preference name="auto-hide-splash-screen" value="true" />
+    <preference name="disable-cursor" value="false" />
+    <preference name="android-minSdkVersion" value="15" />
+    <preference name="android-installLocation" value="auto" />
+    <icon src="icon.png" />
+    <platform name="android">
+        <icon density="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
+        <icon density="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
+        <icon density="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
+        <icon density="xhdpi" src="www/res/icon/android/icon-96-xhdpi.png" />
+        <icon density="xxhdpi" src="www/res/icon/android/icon-144-xxhdpi.png" />
+    </platform>
+    <icon platform="android" qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
+    <icon platform="android" qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
+    <icon platform="android" qualifier="hdpi" src="www/res/icon/android/icon-72-hdpi.png" />
+    <icon platform="android" qualifier="xhdpi" src="www/res/icon/android/icon-96-xhdpi.png" />
+    <icon platform="android" qualifier="xxhdpi" src="xxhdpi.png" />
+    <icon platform="android" qualifier="fr-xxhdpi" src="www/res/icon/android/icon-144-xxhdpi.png" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <allow-navigation href="http://estiatorio.kapaweb.gr/*" />
+    <allow-navigation href="https://estiatorio.kapaweb.gr/*" />
+    <access origin="*" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="cordova-plugin-firebase" spec="^0.1.25" />
+</widget>
